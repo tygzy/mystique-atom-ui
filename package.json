@@ -11,7 +11,7 @@
     "mystique",
     "dracula"
   ],
-  "repository": "https://github.com/tygzy/mystique-atom-ui.git",
+  "repository": "https://github.com/tygzy/mystique-atom-ui",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

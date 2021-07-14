@@ -1,2 +1,5 @@
 # mystique-atom-ui
+
 Mystique UI theme for Atom!
+
+Made by __tygzy__

@@ -1,0 +1,19 @@
+{
+  "name": "mystique-atom-ui",
+  "theme": "ui",
+  "version": "0.0.0",
+  "description": "Mystique UI theme for Atom!",
+  "keywords": [
+    "ui",
+    "theme",
+    "dark",
+    "grey",
+    "mystique",
+    "dracula"
+  ],
+  "repository": "https://github.com/tygzy/mystique-atom-ui.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

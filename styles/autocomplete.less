@@ -1,0 +1,55 @@
+autocomplete-suggestion-list {
+    &.select-list.popover-list {
+        background: lighten(@app-background-color, 1.5%);
+        border-radius: 6px;
+
+        .suggestion-description {
+            background: darken(@app-background-color, 2.5%);
+            border-radius: 6px;
+
+            span, a {
+                font-size: 0.8rem;
+            }
+
+            a {
+                color: @bg-color;
+            }
+        }
+        .suggestion-list-scroller {
+            background: none;
+
+            ol li {
+                background: none;
+                position: relative;
+
+                &::before {
+                    display: none;
+                }
+
+                &.selected {
+                    background: @bg-color;
+                    color: @text-color-success;
+                    
+                    .word-container span {
+                        color: @text-color-success;
+                    }
+
+                    .left-label {
+                        color: darken(@text-color-success, 15%);
+                    }
+
+                    .icon-container {
+                        i.icon {
+                            background: @text-color-success;
+                            color: @bg-color;
+                        }
+                    }
+
+                    .right-label {
+                        color: darken(@text-color-success, 15%);
+                    }
+                }
+            }
+        }
+    }
+}

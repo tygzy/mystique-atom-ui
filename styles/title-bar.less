@@ -1,0 +1,19 @@
+.title-bar {
+    background: @bg-color;
+    border-bottom: none;
+    color: @text-color;
+    font-size: @font-size;
+
+    .amu-panel-contrast & {
+        background: darken(@bg-color, 2%);
+    }
+
+    .amu-tinted-tab-bar & {
+        background: @bg-color;
+        color: @text-color;
+    }
+
+    .amu-panel-contrast.amu-tinted-tab-bar & {
+        background: darken(@bg-color, 5%);
+    }
+}

@@ -1,4 +1,4 @@
-# mystique-atom-ui
+# Mystique Atom UI theme
 
 Mystique UI theme for Atom!
 

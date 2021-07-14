@@ -8,7 +8,7 @@ Made by __tygzy__
 
 __In editor__
 
-1. Go to `Atom > Preferences...``
+1. Go to `Atom > Preferences...`
 2. Go to `Install` tab
 3. Click the `Themes` button
 4. Search `mystique-ui`

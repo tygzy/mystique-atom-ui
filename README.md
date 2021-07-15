@@ -4,15 +4,29 @@ Mystique UI theme for Atom!
 
 Made by __tygzy__
 
-# Install
+# Syntax theme
 
-__In editor__
+`https://github.com/tygzy/mystique-atom-syntax.git` or `https://atom.io/themes/mystique-atom-syntax`, or you can search for `mystique-atom-syntax`.
 
-1. Go to `Atom > Preferences...`
-2. Go to `Install` tab
-3. Click the `Themes` button
-4. Search `mystique-ui`
+# Install in the Atom editor
 
-__Command line__
+1. Go to `Atom > Preferences...`.
+2. Go to `Install` tab.
+3. Click the `Themes` button.
+4. Search `mystique-ui`.
 
-Type this into your command line `apm install mystique-atom-ui`
+# Install using Atom Package Manager
+
+Type this into your command line `apm install mystique-atom-ui`.
+
+# Install using Git
+
+If you wish to use Git to install themes, navigate to `~/.atom/packages` and then clone the theme into there using: `git clone https://github.com/tygzy/mystique-atom-ui.git`.
+
+# Enabling the theme
+
+Go to `Atom > Preferences...`, then the `Themes` tab and then click the `UI Theme` dropdown and select `Mystique Atom`.
+
+# Preview
+
+![Preview image 1](/README/preview-1.png)

@@ -4,30 +4,28 @@
 
 .scrollbars-visible-always {
 
-  ::-webkit-scrollbar {
+    ::-webkit-scrollbar {
 
-    width: 15px;
-    height: 14px;
+        width: 15px;
+        height: 14px;
 
-    &-track {
-        border: 0px;
-        width: 8px;
-        background-color: #2a323a !important;
-        box-shadow: inset 0 0 10px 10px #2a323a;
-        border: solid 5px #2a323a;
-        border-radius: 0px;
+        &-track {
+            border: 0px;
+            width: 8px;
+            background-color: #2a323a !important;
+            box-shadow: inset 0 0 10px 10px #2a323a;
+            border: solid 5px #2a323a;
+            border-radius: 0px;
+        }
+
+        &-thumb {
+            background-color: #232a31 !important;
+            border: 0px;
+            width: 8px;
+            max-width: 8px;
+            border-radius: 20px;
+            box-shadow: inset 0 0 10px 10px darken(#232a31, 4%);
+            border: solid 5px #2a323a;
+        }
     }
-
-    &-thumb {
-        background-color: #232a31 !important;
-        border: 0px;
-        width: 8px;
-        max-width: 8px;
-        border-radius: 20px;
-        box-shadow: inset 0 0 10px 10px darken(#232a31, 4%);
-        border: solid 5px #2a323a;
-    }
-
-  }
-
 }

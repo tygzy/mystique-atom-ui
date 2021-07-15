@@ -29,4 +29,4 @@ Go to `Atom > Preferences...`, then the `Themes` tab and then click the `UI Them
 
 # Preview
 
-![Preview image 1](https://imgur.com/a/DJl6DKz)
+![Preview image 1](/assets/preview-1.png)

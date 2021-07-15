@@ -6,7 +6,7 @@ Made by __tygzy__
 
 # Syntax theme
 
-`https://github.com/tygzy/mystique-atom-syntax.git` or `https://atom.io/themes/mystique-atom-syntax`, or you can search for `mystique-atom-syntax`.
+`https://atom.io/themes/mystique-atom-syntax`, or you can search for `mystique-atom-syntax` in the Atom editor.
 
 # Install in the Atom editor
 
@@ -29,4 +29,4 @@ Go to `Atom > Preferences...`, then the `Themes` tab and then click the `UI Them
 
 # Preview
 
-![Preview image 1](/README/preview-1.png)
+![Preview image 1](https://imgur.com/a/DJl6DKz)

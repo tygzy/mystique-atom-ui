@@ -20,27 +20,3 @@
     background-color: lighten(@bg-color, 4%);
   }
 }
-
-
-.tree-view-resizer, atom-text-editor.editor  {
-  ::-webkit-scrollbar {
-    background-color: @bg-color;
-
-    &-track {
-        width: 6px;
-    }
-
-    &-thumb {
-      background-color: darken(@bg-color, 4%);
-      border-radius: 6px;
-
-      &:window-inactive {
-        background-color: rgb(116, 115, 105);
-      }
-    }
-
-    &-corner {
-      background-color: #262626;
-    }
-  }
-}

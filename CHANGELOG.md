@@ -2,7 +2,7 @@
 * Every feature added
 * Every bug fixed
 
-## 0.2.0 -
+## 0.2.0 - New scrollbar and text colors!
 * Added scrollbar styling
 * Modified text colors
 * Changed tab height to be smaller

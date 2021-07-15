@@ -7,16 +7,19 @@
 
 
 .tree-view-resizer {
-  border-right: 1px solid @base-border-color;
+    border-right: 1px solid @base-border-color;
 }
 
 .tree-view {
-  color: @text-color;
-  background-color: @tree-view-background-color;
-  border-right: 1px solid @base-border-color;
+    color: @text-color;
+    background-color: @tree-view-background-color;
+    border-right: 1px solid @base-border-color;
 
-  .list-item.selected {
-    font-weight: bold;
-    background-color: lighten(@bg-color, 4%);
-  }
+    .list-item.selected {
+        font-weight: bold;
+        background-color: lighten(@bg-color, 4%);
+    }
+    .scrollbar-corner {
+        display: none;
+    }
 }

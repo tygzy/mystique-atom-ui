@@ -10,3 +10,34 @@
 .status-modified { color: @text-color-warning; } // orange
 .status-removed  { color: @text-color-error; }   // red
 .status-renamed  { color: @text-color-info; }    // blue
+
+.github-Git {
+    border-right: 1px solid @base-border-color;
+}
+
+.github-StagingView-header,
+.github-CommitView-buttonWrapper,
+.github-StagingView-headerButton,
+.github-Project,
+.github-RecentCommits {
+    border-color: @base-border-color;
+}
+
+.github-CommitView-buttonWrapper {
+    border-top: 1px solid @base-border-color;
+    padding-top: 10px;
+}
+
+.github-StatusBarTile, .github-ChangedFilesCount {
+    color: @text-color-info;
+}
+
+.github-PushPull {
+    color: @text-color-success;
+}
+
+.inline-block.github-branch {
+    border-left: 1px solid @base-border-color;
+    padding-left: 10px;
+    margin-left: 5px;
+}

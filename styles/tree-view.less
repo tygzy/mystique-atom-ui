@@ -10,6 +10,10 @@
     border-right: 1px solid @base-border-color;
 }
 
+.tree-view-root.full-menu.list-tree.focusable-panel {
+    padding: 0px 10px;
+}
+
 .tree-view {
     color: @text-color;
     background-color: @tree-view-background-color;
@@ -19,7 +23,14 @@
         font-weight: bold;
         background-color: lighten(@bg-color, 4%);
     }
+    .list-item {
+        margin: 6px 0px;
+    }
     .scrollbar-corner {
         display: none;
     }
+}
+
+.directory.entry.list-nested-item.project-root {
+    border-bottom: 1px solid @base-border-color;
 }

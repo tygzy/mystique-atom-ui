@@ -18,7 +18,7 @@
 * Fixed a small border issue on one of the panels
 * Changed wrap guide color
 
-## 0.3.2 - More minor changes and details
+## 0.4.0 - More minor changes and details
 * Bottom panel now has some color!
 * Tree view project files now have more padding, and projects have a line separating each project
 * Focused tab color is `blue` instead of `white`

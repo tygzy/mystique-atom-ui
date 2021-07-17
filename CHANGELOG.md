@@ -23,3 +23,7 @@
 * Tree view project files now have more padding, and projects have a line separating each project
 * Focused tab color is `blue` instead of `white`
 * Border colors are all now the same
+
+## 0.4.1 - Tree view separatations
+* Fixed the last project in the tree view having a separator at the bottom
+* Added some more preview images

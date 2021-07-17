@@ -28,6 +28,6 @@
 * Fixed the last project in the tree view having a separator at the bottom
 * Added some more preview images
 
-## 0.4.2 - Uniformity and text shadows
+## 0.5.0 - Uniformity and text shadows
 * Changed tree view selected file/folder background color to be uniform with the rest of the editor
 * Tree view and tabs now have text shadows

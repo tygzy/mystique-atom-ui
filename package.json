@@ -1,7 +1,7 @@
 {
   "name": "mystique-atom-ui",
   "theme": "ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mystique UI theme for Atom!",
   "keywords": [
     "ui",

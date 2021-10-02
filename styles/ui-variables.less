@@ -62,10 +62,10 @@
 @button-background-color-selected: lighten(@base-background-color, 12%);
 @button-border-color:              @base-border-color;
 
-@tab-bar-background-color:    @base-background-color;
+@tab-bar-background-color:    @syntax-bg-color;
 @tab-bar-border-color:        @base-border-color;
-@tab-background-color:        @syntax-bg-color;
-@tab-background-color-active: lighten(@tab-bar-background-color, 7%);
+@tab-background-color:        @bg-color;
+@tab-background-color-active: darken(@bg-color, 2%);
 @tab-border-color:            @base-border-color;
 
 @tree-view-background-color: @bg-color;
@@ -92,5 +92,6 @@
 @tab-height: 26px;
 
 // Misc
+
 @component-border-radius: 6px;
-@font-family: 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
+@font-family: 'Ubuntu', sans-serif, monospace;

@@ -31,3 +31,8 @@
 ## 0.5.0 - Uniformity and text shadows
 * Changed tree view selected file/folder background color to be uniform with the rest of the editor
 * Tree view and tabs now have text shadows
+
+## 1.0.0 - Release
+* After a while I have returned to update this theme, and I feel that this is ready for release!
+* Changed tab bar colors
+* Removed unnecessary borders 

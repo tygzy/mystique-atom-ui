@@ -35,4 +35,8 @@
 ## 1.0.0 - Release
 * After a while I have returned to update this theme, and I feel that this is ready for release!
 * Changed tab bar colors
-* Removed unnecessary borders 
+* Removed unnecessary borders
+
+##1.0.3 - Fixes
+* Fixed some windows/panels having a white background.
+* Fixed some text being a darker color and difficult to read.

@@ -18,6 +18,9 @@
   }
 }
 
+.settings-view li>.icon {
+    color: #b1bbc5;
+}
 
 // Modal -------------------
 // Used on top of the editor, like the Command Palette.
@@ -26,4 +29,26 @@ atom-panel.modal {
   border: 1px solid @overlay-border-color;
   border-top: none;
   box-shadow: 0 2px 8px 1px hsla(0,0%,0%,.3);
+}
+
+.config-menu {
+    background-color: @inset-panel-background-color !important;
+    border-right: 4px solid @bg-color !important;
+}
+
+.settings-panel {
+    background-color: @inset-panel-background-color !important;
+}
+
+.find-and-replace {
+    background-color: @inset-panel-background-color;
+    border-top: 4px solid @bg-color;
+}
+
+.find-and-replace .editor.mini, .btn {
+    background-color: @bg-color;
+}
+
+.find-and-replace .header-item {
+    color: #b1bbc5;
 }

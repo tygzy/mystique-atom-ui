@@ -12,15 +12,34 @@
 .status-renamed  { color: @text-color-info; }    // blue
 
 .github-Git {
-    border-right: 1px solid @base-border-color;
+    border-right: none;
 }
 
 .github-StagingView-header,
 .github-CommitView-buttonWrapper,
+.github-CommitView,
 .github-StagingView-headerButton,
+.github-StagingView-list,
+.github-FilePatchListView-item,
 .github-Project,
+.github-Project-path,
 .github-RecentCommits {
-    border-color: @base-border-color;
+    border-color: @bg-color !important;
+    border-width: 4px !important;
+    background-color: @inset-panel-background-color;
+}
+
+.github-CommitView-editor,
+.github-CommitView-editor .highlights,
+.github-CommitView-editor .vertical-scrollbar,
+.github-CommitView-editor .horizontal-scrollbar {
+    // background-color: @bg-color !important;
+    border-width: 4px;
+}
+
+.github-Project-path {
+    border-width: 0px;
+    background-color: @bg-color;
 }
 
 .github-CommitView-buttonWrapper {
